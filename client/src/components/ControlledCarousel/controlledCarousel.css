@@ -1,0 +1,25 @@
+.carousel-item {
+  margin: 6rem;
+  padding: 2rem;
+}
+.carouselImage {
+  width: 50% !important;
+  object-fit: scale-down;
+  overflow: hidden;
+}
+.carousel {
+  width:70%;
+  margin: 10 px;
+  padding: 10 px
+}
+@media (max-width: 900px) {
+  .carousel {
+    width:auto;
+    height:auto;
+  }
+}
+.carousel-item {
+  float: right;
+  margin: 0;
+  padding: 5px
+}

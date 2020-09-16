@@ -1,0 +1,157 @@
+@font-face {
+    font-family: titleFont;
+    src: url(/assets/fonts/Metal-Vampire.ttf);
+  }
+  
+  body {
+    background-image: url("/assets/images/shutterstock_248261209.jpg");
+    text-align: center;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body,
+  html {
+    height: 100%;
+  }
+
+  #progressbarRow{
+    padding: 1rem;
+  }
+  .progress{
+    height: 2rem;
+  }
+  textarea.form-control{
+    margin: 20px;
+    background-color: rgb(172,188,211);
+  }
+  
+  #battletitle {
+    color: red;
+    font-size: 4rem;
+    padding-top: 30px;
+    font-family: "titleFont";
+    text-shadow: 2px 2px black;
+  }
+  #battletitle2 {
+    color: black;
+    font-size: 2rem;
+    padding-top: 10px;
+    font-family: "titleFont";
+    text-shadow: 2px 2px black;
+  }
+  
+  /* 
+    #start-button, #create-button:hover, #start-button, #create-button:focus, #start-button, #create-button:active, #start-button, #create-button.active, .open .dropdown-toggle#start-button, #create-button {
+    
+      background-color: hsl(360, 68%, 60%) !important;
+      background-repeat: repeat-x;
+      background-image: linear-gradient(#fbeded, red);
+      border-color: red red hsl(360, 68%, 51%);
+      color: #333 !important;
+      text-shadow: 0 1px 1px rgba(255, 255, 255, 0.59);
+     }  */
+  
+  @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap");
+  
+  .p11-section {
+    width: 30%;
+    margin: 33%;
+    margin-top: 0px;
+    margin-left: 80px;
+  }
+  
+  .p12-section {
+    width: 30%;
+    margin: 33%;
+    float: right;
+    margin-right: 80px;
+  }
+  .battleareatext{
+    background-color: black;
+    color:whitesmoke;
+    font-weight: bold;
+    overflow-y: scroll;
+    max-height: 10rem;
+    overflow-anchor: none; 
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  #moves-button {
+    background-color: red;
+    color: white;
+    width: 7.5rem;  
+    background-color: hsl(351, 68%, 11%) !important;
+    background-repeat: repeat-x;
+    background-image: -o-linear-gradient(top, red, #2f080e);
+    background-image: linear-gradient(red, #2f080e);
+    border-color: #2f080e #2f080e hsl(351, 68%, 1.5%);
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.62);
+    border-radius: 2rem;
+    font-family: "Baloo Paaji 2", cursive;
+    font-size: large;
+    margin: 1.5rem;
+    padding:0.25rem
+  }
+  #moves-button:disabled{
+    background-color: black;
+    color: white;
+    width: 7.5rem;  
+    background-color: hsl(351, 68%, 11%) !important;
+    background-repeat: repeat-x;
+    background-image: -o-linear-gradient(top, lightsalmon, #2f080e);
+    background-image: linear-gradient(lightsalmon, #2f080e);
+    border-color: #2f080e #2f080e hsl(351, 68%, 1.5%);
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.62);
+    border-radius: 2rem;
+    font-family: "Baloo Paaji 2", cursive;
+    font-size: large;
+    margin: 1.5rem;
+    padding:0.25rem
+  }
+  
+  #next-button {
+    background-color: red;
+    color: white;
+    width: 7.5rem;  
+    background-color: hsl(351, 68%, 11%) !important;
+    background-repeat: repeat-x;
+    background-image: -o-linear-gradient(top, red, #2f080e);
+    background-image: linear-gradient(red, #2f080e);
+    border-color: #2f080e #2f080e hsl(351, 68%, 1.5%);
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.62);
+    border-radius: 2rem;
+    font-family: "Baloo Paaji 2", cursive;
+    font-size: large;
+    margin: 1.5rem;
+    padding:0.25rem
+  }
+  #next-button:disabled{
+    background-color: black;
+    color: white;
+    width: 7.5rem;
+    background-color: hsl(351, 68%, 11%) !important;
+    background-repeat: repeat-x;
+    background-image: -o-linear-gradient(top, lightsalmon, #2f080e);
+    background-image: linear-gradient(lightsalmon, #2f080e);
+    border-color: #2f080e #2f080e hsl(351, 68%, 1.5%);
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.62);
+    border-radius: 2rem;
+    font-family: "Baloo Paaji 2", cursive;
+    font-size: large;
+    margin: 1.5rem;
+    padding:0.25rem
+  }
+  
+  #fight {
+    text-align: center;
+    border-right: 1300px;
+  }
+  
